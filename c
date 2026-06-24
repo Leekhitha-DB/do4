@@ -24,7 +24,11 @@
 </plugin> 
 </plugins> 
 </build>
-
+mvn clean compile 
+mvn package
+java -jar ./target/.....
+mvn clean install
+gradle init --type pom
 
 plugins { 
   id 'java' 
@@ -42,3 +46,5 @@ jar {
     attributes('Main-Class': 'org.example.Main') 
   } 
 }
+gradle clean build
+java -jar ./build/libs/......
