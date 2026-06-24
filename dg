@@ -10,6 +10,7 @@ git config --list
 another git bash
 git config user.name
 git remote add origin "repo-link"
+git remote show origin
 git commit -m "ic"
 git push origin master  or   git push -u origin master
 
