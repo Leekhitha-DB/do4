@@ -1,0 +1,17 @@
+git init
+git add .
+git config --unset user.name
+git config --unset user.email
+git config user.name "Leekhitha-DB"
+git config user.email "leekhithadb@gmail.com"
+git status
+git config --list
+  
+another git bash
+git config user.name
+git remote add origin "repo-link"
+git commit -m "ic"
+git push origin master  or   git push -u origin master
+
+authenticate git 
+  
